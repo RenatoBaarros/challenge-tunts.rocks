@@ -11,6 +11,13 @@ Develop an application in a programming language of your choice (if applying for
 </p>
 
 
+## ⚠️ Environment Variables
+
+• It is not recommended to expose the private keys in the repository, so it is best to acquire the credentials after configuring the environment to use the API.<br>
+• To run up the application follow the steps from [Set up the environment](#setupenvironment).<br>
+• Replace the credentials dowloaded as a JSON file with the ```client_secret.json``` in this repository.<br>
+
+
 ## 📝 Step by step
 
 - [Save the spreadsheet on Google Drive](#googledrive)
@@ -30,10 +37,12 @@ Develop an application in a programming language of your choice (if applying for
 <h3>→ <a href="https://docs.google.com/spreadsheets/d/1fclu6EaP2E-xyDdXQMmBIzHPB_tJuPJDPuCYHtAqoBg/edit#gid=0">My Spreadsheet</a></h3>
 
 ## 🌱 Set up the environment <a name="setupenvironment"></a>
-
-• Create a Google Cloud project and enable the Google Drive API and Google Sheets API.<br>
-• Configure the OAuth consent screen.<br>
-• Authorize credentials for a desktop application.<br>
+• Create a <a href="https://console.cloud.google.com/projectcreate">Google Cloud project</a> and enable the <a href="https://console.cloud.google.com/marketplace/product/google/drive.googleapis.com
+">Google Drive API</a> and <a href="https://console.cloud.google.com/marketplace/product/google/sheets.googleapis.com
+">Google Sheets API</a>.<br>
+• Configure the <a href="https://console.cloud.google.com/apis/credentials/consent
+">OAuth consent screen</a>.<br>
+• Create <a href="https://console.cloud.google.com/apis/credentials">credentials</a> for a desktop application.<br>
 • Create my working directory.<br>
 • Download the credentials and save as a JSON file as ```client_secret.json``` in my working directory.
 
